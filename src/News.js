@@ -6,7 +6,7 @@ const News = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    const apiKey = '67cd4d6317cf4560a091cb95bc102b77'; // Replace with your News API key
+    const apiKey = ''; // Replace with your News API key
     const category = 'entertainment'; // Set the category to 'entertainment' for celebrity news
   const apiUrl = `https://newsapi.org/v2/top-headlines?country=us&apiKey=${apiKey}`;
 
